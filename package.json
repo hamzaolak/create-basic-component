@@ -1,0 +1,31 @@
+{
+  "name": "create-basic-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamzaolak/create-basic-component.git"
+  },
+  "keywords": [
+    "component",
+    "react",
+    "template",
+    "create-component",
+    "create-react-component",
+    "generate-component",
+    "create-basic-component"
+  ],
+  "author": "Hamza Olak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hamzaolak/create-basic-component/issues"
+  },
+  "homepage": "https://github.com/hamzaolak/create-basic-component#readme",
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  }
+}
