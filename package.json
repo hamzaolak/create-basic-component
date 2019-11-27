@@ -1,10 +1,10 @@
 {
   "name": "create-basic-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "create-basic-component": "node ./index.js"
+  "bin": {
+    "create-basic-component": "./index.sh"
   },
   "repository": {
     "type": "git",
