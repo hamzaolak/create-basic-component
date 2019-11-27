@@ -1,8 +1,9 @@
 #!/bin/bash
-
-cname=Deneme
+cname=$1
 path=./src/components
-cd $path
+if [ -d "$path" ]; then
+  cd $path
+fi
 mkdir $cname
 cd ./$cname
 touch index.js $cname{.stories,.test,}.js

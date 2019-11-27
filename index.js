@@ -1,5 +1,14 @@
+#! /usr/bin/env node
 const { exec } = require('child_process');
-exec('./index.sh', (error, stdout, stderr) => {
+
+let componentName = ''
+if(process.argv[2]){
+  componentName = process.argv[2]
+}else{
+  componentName = 'Component'
+}
+
+exec(`./index.sh${componentName}`, (error, stdout, stderr) => {
   if (error) {
     console.error(`exec error: ${error}`);
     return;

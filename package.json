@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "create-basic-component": "node ./index.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,5 @@
     "url": "https://github.com/hamzaolak/create-basic-component/issues"
   },
   "homepage": "https://github.com/hamzaolak/create-basic-component#readme",
-  "dependencies": {
-    "shelljs": "^0.8.3"
-  }
+  "dependencies": {}
 }
