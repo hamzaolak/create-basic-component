@@ -1,5 +1,8 @@
 #!/bin/bash
-cname=$1
+cname="DefaultComponentName"
+if [ -d "$1" ]; then
+  cname=$1
+fi
 path=./src/components
 if [ -d "$path" ]; then
   cd $path
