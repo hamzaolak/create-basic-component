@@ -7,7 +7,7 @@ npm install -g create-basic-component
 
 ```
 - go to your React Native app directory
-- call in terminal ```create-native-component your-component-name```
+- call in terminal ```create-basic-component```
 - if structure contains  ./src/components create files in components
 - else create when you are run(pwd)
 
