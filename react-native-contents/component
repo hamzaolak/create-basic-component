@@ -1,0 +1,8 @@
+import React from 'react'
+import { Text} from 'react-native'
+
+function #cname(){
+  return(<Text style={{fontWeight: 'bold'}}>#cname Component</Text>)
+}
+
+export default #cname

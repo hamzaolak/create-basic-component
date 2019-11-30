@@ -1,0 +1,9 @@
+import React from 'react';
+import {storiesOf} from '@storybook/react-native';
+
+import StoriesView from 'storybook/decorators/StoryView';
+import #cname from './#cname';
+
+storiesOf('Components/#cname', module)
+  .addDecorator(getStory => <StoriesView>{getStory()}</StoriesView>)  
+  .add('with default', () => <#cname />)

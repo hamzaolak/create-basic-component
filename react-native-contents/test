@@ -1,0 +1,12 @@
+import React from 'react';
+import {render} from 'react-native-testing-library';
+
+import #cname from './#cname'
+
+describe('#cname', () => {
+    it('renders the #cname Component', () => {
+        const {getByText} = render(<#cname />,);
+        const component = getByText('');    
+        expect(component).not.toBeNull();
+    });
+});
