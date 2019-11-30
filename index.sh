@@ -8,7 +8,7 @@ do
  case $item in
    "react-native")
      scripthPath="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-     bash "${scripthPath}"/react-native.sh
+     bash "${scripthPath}"/create-react-native-component
      exit 0
    ;;
    "exit")

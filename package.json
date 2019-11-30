@@ -1,10 +1,12 @@
 {
   "name": "create-basic-component",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "bin": {
-    "create-basic-component": "./index.sh"
+    "create-basic-component": "./index.sh",
+    "react-native-contents": "react-native-contents/",
+    "create-react-native-component":"./create-react-native-component.sh"
   },
   "repository": {
     "type": "git",
